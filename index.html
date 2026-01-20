@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agência Digital</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <h1>Agência Digital</h1>
+  <nav>
+    <a href="#servicos">Serviços</a>
+    <a href="#beneficios">Benefícios</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <span class="badge">Agência Digital</span>
+    <h2>Sites modernos que geram resultados reais</h2>
+    <p>Desenvolvemos páginas rápidas, responsivas e focadas em conversão.</p>
+
+    <div class="hero-actions">
+      <button onclick="scrollContato()">Solicitar orçamento</button>
+      <a href="#servicos" class="btn-outline">Ver serviços</a>
+    </div>
+  </div>
+
+  <!-- IMAGEM COM PARALLAX -->
+  <div class="hero-image">
+    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Equipe trabalhando">
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos" class="section reveal">
+  <h3>Nossos Serviços</h3>
+
+  <div class="cards">
+    <div class="card">
+      <span class="icon">💻</span>
+      <h4>Criação de Sites</h4>
+      <p>Sites rápidos, modernos e adaptados para qualquer dispositivo.</p>
+    </div>
+
+    <div class="card">
+      <span class="icon">🚀</span>
+      <h4>Landing Pages</h4>
+      <p>Páginas focadas em conversão e performance.</p>
+    </div>
+
+    <div class="card">
+      <span class="icon">🛠️</span>
+      <h4>Manutenção</h4>
+      <p>Atualizações, suporte e segurança contínua.</p>
+    </div>
+  </div>
+</section>
+
+<!-- BENEFÍCIOS -->
+<section id="beneficios" class="section light reveal">
+  <h3>Por que escolher a gente?</h3>
+
+  <div class="cards">
+    <div class="card">⚡ Alta performance</div>
+    <div class="card">📱 100% Responsivo</div>
+    <div class="card">🔒 Segurança e estabilidade</div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="section reveal">
+  <h3>Entre em contato</h3>
+
+  <form id="form">
+    <input type="text" placeholder="Seu nome" required>
+    <input type="email" placeholder="Seu email" required>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <p id="msg"></p>
+</section>
+
+<footer>
+  <p>© 2026 Agência Digital</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

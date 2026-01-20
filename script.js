@@ -19,16 +19,6 @@ function revealOnScroll() {
 window.addEventListener("scroll", revealOnScroll);
 revealOnScroll();
 
-/* PARALLAX IMAGE */
-const heroImage = document.querySelector(".hero-image img");
-
-window.addEventListener("scroll", () => {
-  const img = document.querySelector(".parallax-img");
-  const scrollY = window.scrollY;
-
-  img.style.transform = `translateY(${scrollY * 0.15}px)`;
-});
-
 /* FORM */
 const form = document.getElementById("form");
 const msg = document.getElementById("msg");
